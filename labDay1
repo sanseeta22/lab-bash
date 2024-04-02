@@ -1,0 +1,58 @@
+
+(base) sanseetarout@sanseetas-MacBook-Pro ~ % git clone https://github.com/sanseeta22/lab-bash.git
+Cloning into 'lab-bash'...
+remote: Enumerating objects: 40, done.
+remote: Total 40 (delta 0), reused 0 (delta 0), pack-reused 40
+Receiving objects: 100% (40/40), 12.63 KiB | 2.53 MiB/s, done.
+Resolving deltas: 100% (11/11), done.
+(base) sanseetarout@sanseetas-MacBook-Pro ~ % ls
+1_variables_operators.ipynb		Library
+2_conditional_statements.ipynb		Movies
+3.1_data_structures_lists.ipynb		Music
+3.2_data_structures_dictionaries.ipynb	Pictures
+4_iterations.ipynb			Prework.py
+5_functions_intro.ipynb			Public
+6_pseudocode.ipynb			Untitled.ipynb
+Applications				Untitled1.ipynb
+Desktop					Untitled2.ipynb
+Documents				dataType.ipynb
+Downloads				data_types.ipynb
+ExerciseConditionalStatements.ipynb	descriptive_stats.ipynb
+ExerciseDataStructureDict.ipynb		descriptive_stats_viz.ipynb
+ExerciseDataStructureList.ipynb		iCloud Drive (Archive)
+ExerciseDescriptiveStatViz.ipynb	intro_to_pandas.ipynb
+ExerciseDescriptiveStats.ipynb		lab-bash
+ExerciseVarAndOperator.ipynb		ls
+IH-Labs					preWork
+Ironhack.txt				test.ipynb
+L. 1.02a Python Review.ipynb		untitled1.txt
+(base) sanseetarout@sanseetas-MacBook-Pro ~ % ls lab-bash
+exercices	lorem		outputs
+inputs		lorem-copy	readme.md
+(base) sanseetarout@sanseetas-MacBook-Pro ~ % cd lab-bash
+(base) sanseetarout@sanseetas-MacBook-Pro lab-bash % echo "Hello World"
+Hello World
+(base) sanseetarout@sanseetas-MacBook-Pro lab-bash % mkdir new_dir
+(base) sanseetarout@sanseetas-MacBook-Pro lab-bash % ls
+exercices	lorem		new_dir		readme.md
+inputs		lorem-copy	outputs
+(base) sanseetarout@sanseetas-MacBook-Pro lab-bash % rm -rf new_dir
+(base) sanseetarout@sanseetas-MacBook-Pro lab-bash % cp lorem/sed.txt lorem-copy
+
+(base) sanseetarout@sanseetas-MacBook-Pro lorem % cat sed.txt
+(base) sanseetarout@sanseetas-MacBook-Pro lorem % cat at.txt
+(base) sanseetarout@sanseetas-MacBook-Pro lorem-copy % head -n 3 sed.txt
+base) sanseetarout@sanseetas-MacBook-Pro lorem-copy % tail -n 3 sed.txt
+(base) sanseetarout@sanseetas-MacBook-Pro lorem-copy % tail -n 3 sed.txt
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+Homo homini lupus.
+
+sanseetarout@sanseetas-MacBook-Pro lab-bash % id -un
+sanseetarout
+(base) sanseetarout@sanseetas-MacBook-Pro lab-bash % pwd
+/Users/sanseetarout/lab-bash
+(base) sanseetarout@sanseetas-MacBook-Pro lorem % ls *.txt
+(base) sanseetarout@sanseetas-MacBook-Pro lorem % wc -l sed.txt
+       9 sed.txt
+sanseetarout@sanseetas-MacBook-Pro lab-bash % ls lorem|wc -l
